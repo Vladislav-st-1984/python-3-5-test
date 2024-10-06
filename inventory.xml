@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/inventory-data.xsl" media="screen"?>
+<!DOCTYPE inventory_data>
+<InventoryData xml:lang="ru_RU">
+	<bios>
+		<vendor>American Megatrends Inc.</vendor>
+		<version>0501    </version>
+		<start_addr_seg format="hex">61440</start_addr_seg>
+		<release_date>03/03/2006</release_date>
+		<rom_size>524288</rom_size>
+	</bios>
+	<system>
+		<manufacturer>System manufacturer</manufacturer>
+		<product_name>System Product Name</product_name>
+		<version>System Version</version>
+		<serial_number>System Serial Number</serial_number>
+		<uuid>D4E42BA8-F0C8-DA11-8855-31A03F321EB4</uuid>
+		<sku_number/>
+		<family/>
+	</system>
+	<baseboard>
+		<manufacturer>ASUSTeK Computer INC.</manufacturer>
+		<product>P5GV-MX</product>
+		<version>Rev 1.xx</version>
+		<serial_number>MB-1234567890</serial_number>
+		<asset_tag/>
+	</baseboard>
+	<chassis>
+		<manufacturer>Chassis Manufacture</manufacturer>
+		<type>Desktop</type>
+		<version>Chassis Version</version>
+		<serial_number>Chassis Serial Number</serial_number>
+		<asset_tag>Asset-1234567890</asset_tag>
+	</chassis>
+	<processor index="0">
+		<socket>LGA 775</socket>
+		<manufacturer>Intel            </manufacturer>
+		<id format="hex">13829424153406476099</id>
+		<version>Intel(R) Pentium(R) 4 CPU 3.60GHz                   </version>
+		<serial_number>To Be Filled By O.E.M.</serial_number>
+		<asset_tag>To Be Filled By O.E.M.</asset_tag>
+		<part_number>To Be Filled By O.E.M.</part_number>
+	</processor>
+	<memory index="0">
+		<size>268435456</size>
+		<locator>DIMM0</locator>
+		<manufacturer>N/A</manufacturer>
+		<socket>DIMM0</socket>
+	</memory>
+	<memory index="1">
+		<size>536870912</size>
+		<locator>DIMM1</locator>
+		<manufacturer>N/A</manufacturer>
+		<socket>DIMM1</socket>
+	</memory>
+	<memory index="2">
+		<size>268435456</size>
+		<locator>DIMM2</locator>
+		<manufacturer>N/A</manufacturer>
+		<socket>DIMM2</socket>
+	</memory>
+	<memory index="3">
+		<size>268435456</size>
+		<locator>DIMM0</locator>
+		<manufacturer>Manufacturer0</manufacturer>
+		<serial_number>SerNum0</serial_number>
+		<asset_tag>AssetTagNum0</asset_tag>
+		<part_number>PartNum0</part_number>
+	</memory>
+	<memory index="4">
+		<size>536870912</size>
+		<locator>DIMM1</locator>
+		<manufacturer>Manufacturer1</manufacturer>
+		<serial_number>SerNum1</serial_number>
+		<asset_tag>AssetTagNum1</asset_tag>
+		<part_number>PartNum1</part_number>
+	</memory>
+	<memory index="5">
+		<size>268435456</size>
+		<locator>DIMM2</locator>
+		<manufacturer>Manufacturer2</manufacturer>
+		<serial_number>SerNum2</serial_number>
+		<asset_tag>AssetTagNum2</asset_tag>
+		<part_number>PartNum2</part_number>
+	</memory>
+	<pci_dev index="0">
+		<vendor_id format="hex">4334</vendor_id>
+		<device_id format="hex">7169</device_id>
+		<class_data format="hex">256</class_data>
+		<sub_vendor_id format="hex">4334</sub_vendor_id>
+		<sub_device_id format="hex">7169</sub_device_id>
+		<serial_number>100006201000A35</serial_number>
+		<label>Xilinx Corporation Device 1c01</label>
+	</pci_dev>
+	<pci_dev index="1">
+		<vendor_id format="hex">4334</vendor_id>
+		<device_id format="hex">6913</device_id>
+		<class_data format="hex">256</class_data>
+		<sub_vendor_id format="hex">4334</sub_vendor_id>
+		<sub_device_id format="hex">6913</sub_device_id>
+		<label>Xilinx Corporation Device 1b01</label>
+	</pci_dev>
+	<pci_dev index="2">
+		<vendor_id format="hex">4332</vendor_id>
+		<device_id format="hex">33081</device_id>
+		<class_data format="hex">512</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">33033</sub_device_id>
+		<label>Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+</label>
+	</pci_dev>
+	<pci_dev index="3">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9834</device_id>
+		<class_data format="hex">3077</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) SMBus Controller</label>
+	</pci_dev>
+	<pci_dev index="4">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9809</device_id>
+		<class_data format="hex">257</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9729</sub_device_id>
+		<label>Intel Corporation 82801FB/FW (ICH6/ICH6W) SATA Controller</label>
+	</pci_dev>
+	<pci_dev index="5">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9839</device_id>
+		<class_data format="hex">257</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) IDE Controller</label>
+	</pci_dev>
+	<pci_dev index="6">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9792</device_id>
+		<class_data format="hex">1537</class_data>
+		<sub_vendor_id format="hex">0</sub_vendor_id>
+		<sub_device_id format="hex">0</sub_device_id>
+		<label>Intel Corporation 82801FB/FR (ICH6/ICH6R) LPC Interface Bridge</label>
+	</pci_dev>
+	<pci_dev index="7">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9294</device_id>
+		<class_data format="hex">1540</class_data>
+		<label>Intel Corporation 82801 PCI Bridge</label>
+	</pci_dev>
+	<pci_dev index="8">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9820</device_id>
+		<class_data format="hex">3075</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9820</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller</label>
+	</pci_dev>
+	<pci_dev index="9">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9819</device_id>
+		<class_data format="hex">3075</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #4</label>
+	</pci_dev>
+	<pci_dev index="10">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9818</device_id>
+		<class_data format="hex">3075</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #3</label>
+	</pci_dev>
+	<pci_dev index="11">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9817</device_id>
+		<class_data format="hex">3075</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #2</label>
+	</pci_dev>
+	<pci_dev index="12">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9816</device_id>
+		<class_data format="hex">3075</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9792</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1</label>
+	</pci_dev>
+	<pci_dev index="13">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9824</device_id>
+		<class_data format="hex">1540</class_data>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 1</label>
+	</pci_dev>
+	<pci_dev index="14">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9832</device_id>
+		<class_data format="hex">1027</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">33167</sub_device_id>
+		<label>Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) High Definition Audio Controller</label>
+	</pci_dev>
+	<pci_dev index="15">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">10114</device_id>
+		<class_data format="hex">896</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9602</sub_device_id>
+		<label>Intel Corporation 82915G Integrated Graphics Controller</label>
+	</pci_dev>
+	<pci_dev index="16">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9602</device_id>
+		<class_data format="hex">768</class_data>
+		<sub_vendor_id format="hex">4163</sub_vendor_id>
+		<sub_device_id format="hex">9602</sub_device_id>
+		<label>Intel Corporation 82915G/GV/910GL Integrated Graphics Controller</label>
+	</pci_dev>
+	<pci_dev index="17">
+		<vendor_id format="hex">32902</vendor_id>
+		<device_id format="hex">9600</device_id>
+		<class_data format="hex">1536</class_data>
+		<sub_vendor_id format="hex">32902</sub_vendor_id>
+		<sub_device_id format="hex">9600</sub_device_id>
+		<label>Intel Corporation 82915G/P/GV/GL/PL/910GL Memory Controller Hub</label>
+	</pci_dev>
+	<usb_dev index="0">
+		<id_vendor format="hex">7531</id_vendor>
+		<id_product format="hex">2</id_product>
+		<class_data format="hex">9</class_data>
+		<i_manufacturer>Linux 4.2.0-23-generic ehci_hcd</i_manufacturer>
+		<i_product>EHCI Host Controller</i_product>
+		<i_serial>0000:00:1d.7</i_serial>
+		<revision>4.2</revision>
+		<interface index="0">
+			<interface_num>0</interface_num>
+			<class_data format="hex">9</class_data>
+			<num_endpoints>1</num_endpoints>
+		</interface>
+	</usb_dev>
+	<usb_dev index="1">
+		<id_vendor format="hex">7531</id_vendor>
+		<id_product format="hex">1</id_product>
+		<class_data format="hex">9</class_data>
+		<i_manufacturer>Linux 4.2.0-23-generic uhci_hcd</i_manufacturer>
+		<i_product>UHCI Host Controller</i_product>
+		<i_serial>0000:00:1d.0</i_serial>
+		<revision>4.2</revision>
+		<interface index="0">
+			<interface_num>0</interface_num>
+			<class_data format="hex">9</class_data>
+			<num_endpoints>1</num_endpoints>
+		</interface>
+	</usb_dev>
+	<usb_dev index="2">
+		<id_vendor format="hex">7531</id_vendor>
+		<id_product format="hex">1</id_product>
+		<class_data format="hex">9</class_data>
+		<i_manufacturer>Linux 4.2.0-23-generic uhci_hcd</i_manufacturer>
+		<i_product>UHCI Host Controller</i_product>
+		<i_serial>0000:00:1d.1</i_serial>
+		<revision>4.2</revision>
+		<interface index="0">
+			<interface_num>0</interface_num>
+			<class_data format="hex">9</class_data>
+			<num_endpoints>1</num_endpoints>
+		</interface>
+	</usb_dev>
+	<usb_dev index="3">
+		<id_vendor format="hex">7531</id_vendor>
+		<id_product format="hex">1</id_product>
+		<class_data format="hex">9</class_data>
+		<i_manufacturer>Linux 4.2.0-23-generic uhci_hcd</i_manufacturer>
+		<i_product>UHCI Host Controller</i_product>
+		<i_serial>0000:00:1d.2</i_serial>
+		<revision>4.2</revision>
+		<interface index="0">
+			<interface_num>0</interface_num>
+			<class_data format="hex">9</class_data>
+			<num_endpoints>1</num_endpoints>
+		</interface>
+	</usb_dev>
+	<usb_dev index="4">
+		<id_vendor format="hex">7531</id_vendor>
+		<id_product format="hex">1</id_product>
+		<class_data format="hex">9</class_data>
+		<i_manufacturer>Linux 4.2.0-23-generic uhci_hcd</i_manufacturer>
+		<i_product>UHCI Host Controller</i_product>
+		<i_serial>0000:00:1d.3</i_serial>
+		<revision>4.2</revision>
+		<interface index="0">
+			<interface_num>0</interface_num>
+			<class_data format="hex">9</class_data>
+			<num_endpoints>1</num_endpoints>
+		</interface>
+	</usb_dev>
+	<storage index="0">
+		<device_model>ST3160812AS</device_model>
+		<serial_number>5LS124XZ</serial_number>
+		<firmware_version>3.AAD</firmware_version>
+		<sector_size>512</sector_size>
+		<user_capacity>160041885696</user_capacity>
+		<bus_interface>ata</bus_interface>
+	</storage>
+	<monitor index="0">
+		<vendor_name>NEC Corporation</vendor_name>
+		<model_name>LCD1770NX</model_name>
+		<serial_number>57438872TB</serial_number>
+	</monitor>
+	<host>
+		<hostname>arm-kiber.epp.ru</hostname>
+		<release>Astra Linux SE 1.5 (Smolensk)</release>
+		<kernel>4.2.0-23-generic #28astra51 SMP Tue Oct 17 08:08:51 UTC 2017</kernel>
+	</host>
+	<timestamp>2019-03-04T11:16:28MSK</timestamp>
+</InventoryData>
+

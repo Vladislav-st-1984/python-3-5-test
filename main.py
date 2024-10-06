@@ -83,7 +83,7 @@ class FolderChangeHandler(FileSystemEventHandler):
 
 
 if __name__ == "__main__":
-    xml_path = "data.xml"  # Path to the XML file
+    xml_path = "inventory.xml"  # Path to the XML file
     folder_to_monitor = "."  # Folder to monitor for changes
 
     app = DeviceTreeApp(xml_path, folder_to_monitor)
